@@ -32,4 +32,4 @@ HeyLina uses **AsyncStorage** to save user data based on the current date.
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/HeyLina.git
+git clone https://github.com/nagendrakr97/HeyLina.git
