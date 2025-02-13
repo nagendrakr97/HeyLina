@@ -59,7 +59,7 @@ buck-out/
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
-# android/*
+android/*
 # android/
 .gradle/
 .idea/
