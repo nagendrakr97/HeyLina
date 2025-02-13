@@ -60,6 +60,6 @@ buck-out/
 /ios/Pods/
 /vendor/bundle/
 # android/*
-android/
+# android/
 .gradle/
 .idea/
