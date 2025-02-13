@@ -11,7 +11,8 @@ const DateListPage = () => {
   useEffect(() => {
     loadat();
   }, [])
-
+  
+{/* Data loading function of saved dates */}
   const loadat = async () => {
     const datesArr = await AsyncStorage.getItem('pastDates');
     const parse = JSON.parse(datesArr)

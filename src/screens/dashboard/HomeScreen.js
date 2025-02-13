@@ -48,7 +48,7 @@ const HomeScreen = () => {
     };
     loadData();
   }, [type]);
-
+{/* Array list handle cases */}
   const handleSelectItem = async (id, category) => {
     if (isPastDate) return;
     let updatedSelection;
@@ -92,7 +92,7 @@ const HomeScreen = () => {
     }
     await AsyncStorage.setItem(storageKey, JSON.stringify(updatedSelection));
   };
-
+{/* Data click handle of What are you feeling today */}
   const handleCalmPress = async (feeling) => {
     if (selectCalm === feeling) {
       setCalmPressed(null);
@@ -102,7 +102,7 @@ const HomeScreen = () => {
       await AsyncStorage.setItem("selectedFeel", feeling);
     }
   };
-
+{/* Function to handle save button */}
   const saveDatesFun = async () => {
     if (selectCalm == null) {
       Alert.alert('Please choose how are you feeling')
